@@ -45,19 +45,20 @@ const aboutData = [
     info: [
       {
         title: "App Development",
-        icons: [<FaAndroid />, <FaApple />, <FaMobileAlt />],
+        icons: [<FaAndroid key="android" />, <FaApple key="apple" />, <FaMobileAlt key="mobile" />],
       },
       {
         title: "Web Development",
         icons: [
-          <FaReact />,
-          <SiRedux />,
-          <FaJs />,
-          <SiLaravel />,
-          <SiTailwindcss />,
-          <FaGithub />,
-          <SiPostman />,
+          <FaReact key="react" />,
+          <SiRedux key="redux" />,
+          <FaJs key="js" />,
+          <SiLaravel key="laravel" />,
+          <SiTailwindcss key="tailwind" />,
+          <FaGithub key="github" />,
+          <SiPostman key="postman" />,
         ],
+
       },
     ],
   },

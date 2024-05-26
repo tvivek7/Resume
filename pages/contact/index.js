@@ -17,7 +17,7 @@ const Contact = () => {
           animate='show'
           exit='hidden'
           className="h2 text-center mb-12">
-            Let's <span className="text-accent">Connect</span>
+            <span className="text-accent">Let&apos;s Connect</span>
           </motion.h2>
           <motion.form 
           variants ={fadeIn('up', 0.4)}
@@ -40,7 +40,7 @@ const Contact = () => {
                 className="group-hover:-translate-y-[120%] group-hover:opacity-0 
                transition-all duration-500"
               >
-                Let's Talk
+                Let&apos;s Talk
               </span>
               <BsArrowRight className="-translate-y-[120%] opacity-0 group-hover:flex
               group-hover:-translate-y-0 group-hover:opacity-100 transition-all 
