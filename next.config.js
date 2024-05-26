@@ -7,6 +7,10 @@ const nextConfig = {
   basePath: isProd ? '/Resume' : '',
   assetPrefix: isProd ? '/Resume/' : '',
   trailingSlash: true,
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
 }
 
 module.exports = nextConfig
