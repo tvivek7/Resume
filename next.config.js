@@ -6,6 +6,7 @@ const nextConfig = {
   swcMinify: true,
   basePath: isProd ? '/Resume' : '',
   assetPrefix: isProd ? '/Resume/' : '',
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
