@@ -1,8 +1,8 @@
 import TestimonialSlider from "../../components/TestimonialSlider";
-import Smoke from '../../components/Smoke'
 const Testimonials = () => {
-  return (<div>
-  {/* <TestimonialSlider /> */}
+  return (
+  <div>
+  <TestimonialSlider />
   </div>);
 };
 
