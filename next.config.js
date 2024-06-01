@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
-// const isProd = process.env.NODE_ENV === 'production';
+const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  basePath: '/Resume',
-  assetPrefix: '/Resume/',
+  basePath: isProd ? '/Resume' : '',
+  assetPrefix: isProd ? '/Resume/' : '',
   trailingSlash: true,
   output: 'export',
   images: {
@@ -13,4 +13,4 @@ const nextConfig = {
   },
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;
